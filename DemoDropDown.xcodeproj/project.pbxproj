@@ -14,6 +14,7 @@
 		D44EE8761CD096F900857EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44EE8741CD096F900857EB4 /* LaunchScreen.storyboard */; };
 		D44EE8811CD096F900857EB4 /* DemoDropDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EE8801CD096F900857EB4 /* DemoDropDownTests.swift */; };
 		D44EE88C1CD096F900857EB4 /* DemoDropDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EE88B1CD096F900857EB4 /* DemoDropDownUITests.swift */; };
+		D44EE89A1CD0974600857EB4 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EE8991CD0974600857EB4 /* DropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D44EE8871CD096F900857EB4 /* DemoDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44EE88B1CD096F900857EB4 /* DemoDropDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDropDownUITests.swift; sourceTree = "<group>"; };
 		D44EE88D1CD096F900857EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44EE8991CD0974600857EB4 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D44EE86B1CD096F800857EB4 /* AppDelegate.swift */,
 				D44EE86D1CD096F800857EB4 /* ViewController.swift */,
+				D44EE8991CD0974600857EB4 /* DropDown.swift */,
 				D44EE86F1CD096F800857EB4 /* Main.storyboard */,
 				D44EE8721CD096F900857EB4 /* Assets.xcassets */,
 				D44EE8741CD096F900857EB4 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				D44EE86E1CD096F800857EB4 /* ViewController.swift in Sources */,
 				D44EE86C1CD096F800857EB4 /* AppDelegate.swift in Sources */,
+				D44EE89A1CD0974600857EB4 /* DropDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
